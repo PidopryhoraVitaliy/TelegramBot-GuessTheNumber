@@ -1,0 +1,17 @@
+{
+  "name": "telegrambot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "env-cmd --file ./config/dev.env nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "env-cmd": "^10.1.0",
+    "node-telegram-bot-api": "^0.59.0",
+    "nodemon": "^2.0.20"
+  }
+}
